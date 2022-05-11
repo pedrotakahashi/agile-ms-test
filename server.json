@@ -1,0 +1,327 @@
+{
+	"data": [
+		{
+			"type": "customer",
+			"id": "1",
+			"attributes": {
+				"avatar": "https://robohash.org/f8ba9850-02a6-4d0a-a14c-31c8086cd11f",
+				"name": "Hilll, Klocko and Heller, Inc",
+				"document": "0b9967f8-3aca-4b76-a060-eba13dd2f8d5",
+				"status": "ACTIVE",
+				"created_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				},
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			},
+			"relationships": {
+				"customerContact": {
+					"data": [
+						{
+							"type": "customerContact",
+							"id": "1"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "customer",
+			"id": "2",
+			"attributes": {
+				"avatar": "https://robohash.org/2d1efc28-5d81-41cc-9e52-235ab820c779",
+				"name": "Jacobi LLC, LLC",
+				"document": "a7823fd6-05a8-4e13-ae4d-351fc8337deb",
+				"status": "ACTIVE",
+				"created_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				},
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			},
+			"relationships": {
+				"customerContact": {
+					"data": [
+						{
+							"type": "customerContact",
+							"id": "2"
+						},
+						{
+							"type": "customerContact",
+							"id": "4"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "customer",
+			"id": "3",
+			"attributes": {
+				"avatar": "https://robohash.org/450d6791-a839-4178-9011-80b1b646c01e",
+				"name": "Ortiz Group, Group",
+				"document": "6c69b296-ea83-4303-8382-7a3327e7adc5",
+				"status": "INACTIVE",
+				"created_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				},
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			},
+			"relationships": {
+				"customerContact": {
+					"data": [
+						{
+							"type": "customerContact",
+							"id": "3"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "customer",
+			"id": "4",
+			"attributes": {
+				"avatar": "https://robohash.org/3b7e8a71-cf42-42e1-a7ec-9b6a7d604c1c",
+				"name": "Rice and Sons, Group",
+				"document": "2999505f-1987-4b28-8bb5-49ec1d02d112",
+				"status": "INACTIVE",
+				"created_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				},
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			},
+			"relationships": {
+				"customerContact": {
+					"data": [
+						{
+							"type": "customerContact",
+							"id": "5"
+						},
+						{
+							"type": "customerContact",
+							"id": "7"
+						},
+						{
+							"type": "customerContact",
+							"id": "9"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "customer",
+			"id": "5",
+			"attributes": {
+				"avatar": "https://robohash.org/b9ae56ae-ab12-4aff-8523-7cd66adc6c1c",
+				"name": "Krajcik and Sons, Group",
+				"document": "54ef4a8b-217e-4aaa-bd86-c86274d27a5f",
+				"status": "INACTIVE",
+				"created_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				},
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			},
+			"relationships": {
+				"customerContact": {
+					"data": [
+						{
+							"type": "customerContact",
+							"id": "6"
+						},
+						{
+							"type": "customerContact",
+							"id": "8"
+						}
+					]
+				}
+			}
+		}
+	],
+	"included": [
+		{
+			"type": "customerContact",
+			"id": "1",
+			"attributes": {
+				"first_name": "Lilla",
+				"last_name": "Connelly",
+				"work_email": "Mara_Kautzer@hotmail.com",
+				"work_phone": "979-665-8197",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "2",
+			"attributes": {
+				"first_name": "Chris",
+				"last_name": "Gerhold",
+				"work_email": "Dillan.Tromp@hotmail.com",
+				"work_phone": null,
+				"updated_at": null
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "3",
+			"attributes": {
+				"first_name": "Ollie",
+				"last_name": "Bednar",
+				"work_email": "Betsy_Zboncak16@gmail.com",
+				"work_phone": "722-678-1912",
+				"updated_at": "2020-09-21 03:17:32.000000"
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "4",
+			"attributes": {
+				"first_name": "Kari",
+				"last_name": "Parker",
+				"work_email": "Scarlett.Toy@hotmail.com",
+				"work_phone": "265-919-9425",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "5",
+			"attributes": {
+				"first_name": "Allan",
+				"last_name": "Quitzon",
+				"work_email": "Raven.Batz@hotmail.com",
+				"work_phone": "321-636-0031",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "6",
+			"attributes": {
+				"first_name": "Sister",
+				"last_name": "Shields",
+				"work_email": "Luigi44@hotmail.com",
+				"work_phone": "660-638-3200",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "7",
+			"attributes": {
+				"first_name": "Maida",
+				"last_name": "Ledner",
+				"work_email": "Christy49@yahoo.com",
+				"work_phone": "994-976-9916",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "8",
+			"attributes": {
+				"first_name": "Brady",
+				"last_name": "Ryan",
+				"work_email": "Gavin.Monahan@yahoo.com",
+				"work_phone": "869-482-7685",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "9",
+			"attributes": {
+				"first_name": "Clinton",
+				"last_name": "Rice",
+				"work_email": "Mavis_Johnson@yahoo.com",
+				"work_phone": "246-797-8821",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		},
+		{
+			"type": "customerContact",
+			"id": "10",
+			"attributes": {
+				"first_name": "Arnaldo",
+				"last_name": "Nitzsche",
+				"work_email": "Meda22@gmail.com",
+				"work_phone": "334-206-7558",
+				"updated_at": {
+					"date": "2020-09-21 03:17:32.000000",
+					"timezone_type": 3,
+					"timezone": "UTC"
+				}
+			}
+		}
+	],
+	"meta": {
+		"sort": {
+			"name": "id",
+			"value": "desc"
+		},
+		"pagination": {
+			"total": 15,
+			"count": 5,
+			"per_page": 5,
+			"current_page": 1,
+			"total_pages": 3
+		}
+	}
+}
